@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* banner style start here */
+header {
+    background: url(../images/banner/banner3.png);
+    height: 808px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner-info {
+    /* padding-left: 845px; */
+    padding-right: 230px;
+    text-align: right;
+
+}
+
+.banner-info .banner-title {
+    padding-top: 216px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 76px;
+    color: #fff;
+    padding-bottom: 24px;
+    padding-left: 845px;
+}
+
+.banner-info .banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 876px;
+    color: #fff;
+    padding-bottom: 32px;
+}
